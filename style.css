@@ -1,0 +1,176 @@
+.main {
+    background-color: black;
+    opacity: 0.7;
+    height: 444px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.box {
+    background-image: url(assets/images/background.jpg);
+    height: 443px;
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    z-index: 10;
+    height: 100px;
+
+    position: relative;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.line {
+    background-color: unset;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    height: calc(37%-100px);
+    align-items: center;
+    display: flex;
+    margin: 67px;
+    padding-top: 10px;
+    font-family: "Martel Sans", sans-serif;
+
+    font-style: normal;
+    z-index: 10;
+    position: relative;
+    gap: 22px;
+    padding: 0 30px;
+}
+
+.line> :first-child {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+input {
+    border: 1px solid rgba(246, 238, 238, 0.5);
+
+    font-size: 12px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    padding: 7px 101px 8px 14px;
+    cursor: pointer;
+}
+
+.line button {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+
+}
+
+.sparton {
+    height: 6px;
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+    position: relative;
+
+    z-index: 20;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+
+    border-color: rgba(232, 211, 211, 0);
+    padding: 3px 24px;
+
+}
+
+.eng {
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.find {
+    justify-content: center;
+
+    background-color: black;
+    display: flex;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    align-items: center;
+}
+
+section.find>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.ui {}
+
+section.find>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.find>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.secimg video {
+    width: 30vw;
+    top: 51px;
+    right: 0;
+    position: absolute;
+}
+
+.secimg {
+    position: relative;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap')
